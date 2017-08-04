@@ -12,13 +12,21 @@
 	    				<ul>
 	        				<li><a href="/">Home</a></li>
 		        			<li><a href="/about">About</a></li>
-	        				<li><a href="/cv">CV</a></li>
 	        				<li><a href="/blog">Blog</a></li>
 	    				</ul>
 					</nav>
 				</header>
 			
-				<div class="book-summary">
+				<div class="left-sidebar">
+				</div>
+				<div style="height:600px">
+					<div class="book-body">
+			
+					{{ content }}
+			
+					</div><!-- /.container -->
+				</div>
+				<div class="right-sidebar">
 					<div id="book-search-input" role="search">
    				 		<input type="text" placeholder="Type to search">
 					</div>
@@ -35,13 +43,6 @@
        						 </li>
 					  </ul >
 					</nav>
-				</div>
-				<div style="height:600px">
-					<div class="book-body">
-			
-					{{ content }}
-			
-					</div><!-- /.container -->
 				</div>
 			
 			<footer>
