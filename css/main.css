@@ -1,0 +1,153 @@
+body {
+   height: 100%
+}
+.book {
+    width: 100%;
+    height: 100%;
+   
+}
+header{
+margin-left: 300px;
+}
+footer{
+    top: 100%;
+    bottom: 0;
+}
+.book-summary{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    overflow-y: auto;
+    width: 300px;
+    color: #364149;
+    background: #fafafa;
+    border-right: 1px solid rgba(0,0,0,.07);
+}
+.col1 {
+	float:left;
+	width:33%;
+	position:relative;
+	left:5%;
+	
+}
+.col2 {
+	float:left;
+	width:33%;
+	position:relative;
+	left:5%;
+	
+}
+.ig_message {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    padding-top: 2px;
+    position: fixed;
+    bottom: 0px;
+    margin-right: .5em;
+    display: inline-block;
+    font-size: .85em;
+    line-height: 1.5;
+    border-top:	.2em solid #fff;
+}
+@media only screen and (max-width: 500px){
+   .book-summary{
+   display: none!important
+   }
+   .book-body {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0!important;
+    bottom: 100px;
+    overflow-y: auto;
+    color: #000;
+    background: #fff;
+    
+}
+   header{
+margin-left: 0!important;
+}
+footer{
+margin-left: 0!important;
+    top: 100%;
+    bottom: 0;
+}
+.col1 {
+	width:100%!important;
+	position:relative;
+	left:5%;
+	
+}
+.col2 {
+	width:100%!important;
+	position:relative;
+	left:5%;
+	border-top: 1px solid #d5d5d5;
+}
+
+}
+.book-body {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 300px;
+    bottom: 100px;
+    overflow-y: auto;
+    color: #000;
+    background: #fff;
+    
+}
+#book-search-input {
+    padding: 10px;
+    transition: top .5s ease;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+    border-top: 1px solid rgba(0,0,0,.07);
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 60px;
+   
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
