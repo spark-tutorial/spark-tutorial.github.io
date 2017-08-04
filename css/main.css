@@ -93,7 +93,7 @@ margin-left: 0!important;
 .book-body {
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 300px;
     left: 300px;
     bottom: 100px;
     overflow-y: auto;
