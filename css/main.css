@@ -17,6 +17,8 @@ body {
 }
 header{
 margin-left: 0px;
+background-color:#999;
+color:#fff;
 }
 footer{
     top: 100%;
