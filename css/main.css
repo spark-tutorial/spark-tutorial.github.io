@@ -67,7 +67,10 @@ footer{
     border-top:	.2em solid #fff;
 }
 @media only screen and (max-width: 500px){
-   .book-summary{
+   .right-sidebar{
+   display: none!important
+   }
+  .left-sidebar{
    display: none!important
    }
    .book-body {
