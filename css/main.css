@@ -8,7 +8,7 @@ body {
 }
 .main-body{
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 50px;
     left: 50px;
     overflow-y: auto;
