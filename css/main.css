@@ -109,8 +109,8 @@ margin-left: 0!important;
 .book-body {
     position: absolute;
     top: 50px;
-    right: 350px;
-    left: 120px;
+    right: 400px;
+    left: 150px;
     bottom: 100px;
     overflow-y: auto;
     color: #000;
@@ -150,8 +150,8 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.0em;
+    line-height: 1.3em;
     color: #333;
 }
 footer {
@@ -161,7 +161,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 ul.posts li {
