@@ -6,6 +6,15 @@ body {
     height: 100%;
    
 }
+.main-body{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    overflow-y: auto;
+    color: #000;
+    background: #fff;
+}
 header{
 margin-left: 120px;
 }
