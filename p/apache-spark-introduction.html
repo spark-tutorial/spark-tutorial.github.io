@@ -5,5 +5,50 @@ title: Spark Tutorial
 <div class="blurb">
 	<h2>Apache Spark Introduction</h2>
 	<a href="http://data-flair.training">Dataflair</a>
+	<p>
+1.	Introduction
+Apache Spark is the lightning fast big-data solution. It has revealing development API’s.  As a result, it allows data workers to do streaming, machine learning, or SQL workload that requires continuous access to datasets. Spark can also perform batch processing and stream processing. It is a general platform for cluster computing.
+It contains the entire Bigdata tool. Apache Spark is capable to access any of Hadoop data source and can run on Hadoop cluster. It talks Spark all to the next level that includes iterative queries and stream processing. In Hadoop, MapReduce allows scalability across servers in Hadoop cluster. Apache Spark is scalable. It also provides simple APIs in Python, Java, Scala, and R.
+It is generally said that Spark is an extension of Hadoop; in real it is not true. But Spark and Hadoop are independent bodies although Spark can run on HDFS. There are some features of Apache Spark that make it an appealing framework. The in-memory computation of Apache Spark allows storing data in RAM. Thus it increases the processing speed of the system.
+2.	Evolution of Apache Spark
+At present Spark is the biggest project of Apache Software Foundation
+2009: Spark emerged as sub-project of Hadoop. Developed by Matei Zaharia in UC Berkeley’s  AMP Lab.
+2010: Under BSD license it was open sourced.
+2013: Spark became a part of Apache Software Foundation.
+3.	Why Spark?
+Spark was invented to overcome the limitations of Hadoop MapReduce. Following are some of the drawbacks of Hadoop:
+•	Use only Java for application building.
+•	Since the maximum framework is in java there is some security concern. Java being heavily exploited by cyber criminals this may result in many security breaches.
+•	Good only for batch processing. Do not support stream processing.
+•	Hadoop uses disk based processing.
 
+4.	Features of Spark
+Features of Spark listed below explains that how Spark overcomes the limitations of Hadoop.
+
+•	Fast processing - Apache Spark allows tremendous speed in in-memory processing up to 100x faster and 10x faster on disk. This speed is possible since, the number of reads–writes to the disk decreases.
+•	Dynamic in nature - Spark has 80 high-level operators, thus it allows developing parallel applications. Although, Scala is the default language we can work with Java, Python and R.
+•	In - memory processing - With this property Spark increases the processing speed as it caches the data, so the data fetching time decreases.
+•	Fault tolerant - the primary abstraction of Spark i.e., RDD is highly capable to handle failure. So, the loss of data reduces to zero in case of failure.
+•	Stream processing - Support for Stream processing in Apache Spark makes it a popular framework for working with live stream of data.
+•	Lazy Evaluation Supportive - All the transformations that are present on RDD does not execute on the go. And also each transformation creates a new RDD. These RDD executes only on action. 
+•	Support Many Languages - Spark is although written in Scala, it supports many languages API’s.
+•	Integration with Hadoop - Spark can integrate with Hadoop HDFS. As Spark does not have its own file storage system.
+•	Spark GraphX - This component of Spark handles graph and graph parallel computation. GraphX exposes a set of fundamental operators as well as an optimized variant of the Pregel API.
+•	Cost Efficient - Apache Spark is cost effective solution for Big data problem. Hadoop requires a large amount of storage and data center at the time of replication.
+6.	Audience of Spark
+The two most important audience of Apace Spark are data scientist and engineers.
+Data Scientist scan and model the data. They use their skill to analyze and discover the data. As the Spark is Simple and has tremendous speed it is very popular among Data Scientists. The various aspects of Spark that makes it a choice among these scientists are that one can explore data using SQL Shell. As a result Data Scientist can handle problems with large dataset very efficiently.  
+The second foremost important audience is Engineer. Using Spark these scientists can develop data processing applications. Spark provides an efficient way to parallelize applications across Clusters, and hides the complexity of distributed systems programming, network developer, and fault tolerance.
+ 
+ 
+5.	Limitations of Spark
+•	Does not have its file management system, so you need to integrate with hadoop, or other cloud based data platform.
+•	In-memory capability can become a bottleneck when it comes to cost-efficient processing of Bigdata.
+•	Memory consumption is very high. And the issue for the same does not resolve in user friendly manner.
+•	It requires large data. 
+•	MLlib lacking in a number of available algorithms (Tanimoto distance).
+6. Conclusion
+Spark provides a simplified framework for creating, managing and implementing big data processing requirements. In addition to the MapReduce operations, with Spark one can also implement SQL queries and process live streaming data in micro batches. With Spark, developers can develop these features either on a stand-alone basis or, combine them with MapReduce programming techniques.
+
+	</p>
 </div><!-- /.blurb -->
