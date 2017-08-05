@@ -16,7 +16,7 @@ footer{
 .right-sidebar{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     position: absolute;
-    top: 0;
+    top: 400px;
     right: 0;
     bottom: 0;
     z-index: 1;
@@ -29,7 +29,7 @@ footer{
 .left-sidebar{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     position: absolute;
-    top: 0;
+    top: 400px;
     left: 0;
     bottom: 0;
     z-index: 1;
@@ -108,7 +108,7 @@ margin-left: 0!important;
 }
 .book-body {
     position: absolute;
-    top: 50px;
+    top: 400px;
     right: 400px;
     left: 150px;
     bottom: 100px;
