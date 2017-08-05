@@ -177,3 +177,14 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.container2{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0!important;
+    bottom: 100px;
+    overflow-y: auto;
+    color: #000;
+    background: #fff;
+}
