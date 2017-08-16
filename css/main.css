@@ -125,6 +125,7 @@ margin-left: 0!important;
     color: #000;
     background: #fff;
     text-align: justify;
+    font-size : 15px !important;
     
 }
 #book-search-input {
@@ -158,9 +159,10 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:inherit;
+    
 }
 p {
-    font-size: 1.0em;
+ font-size : 15px !important;
     line-height: 1.3em;
     color: #333;
 }
